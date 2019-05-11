@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\led -I ..\..\User\GeneralTim
+-I C:\Users\gnr\Documents\工作项目\交流充电桩项目\程序源码\交流桩控制程序-C\工作区\accharger~\Project\RVMDK（uv5）\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\stm32f10x_can.o --omf_browse ..\..\output\stm32f10x_can.crf --depend ..\..\output\stm32f10x_can.d --feedback "..\..\Output\流水灯.fed" "..\..\Libraries\FWlib\src\stm32f10x_can.c"
