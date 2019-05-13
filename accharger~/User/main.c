@@ -1470,7 +1470,7 @@ SCB->VTOR = FLASH_BASE | 0x4000;//重定义中断向量表,该程序在FLASH中的起始地址为：
 	//加看门狗
 	//串口中断对FLASH的影响？
 	}
-//return 0;
+
 }
 #endif	
 }
