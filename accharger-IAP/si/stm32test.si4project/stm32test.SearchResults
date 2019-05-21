@@ -1,0 +1,6 @@
+---- GPIO_Pin_1 Matches (5 in 4 files) ----
+bsp_GeneralTim.h (User\GeneralTim) line 35 : #define            GENERAL_TIM_CH4_PIN           GPIO_Pin_1
+bsp_led.h (User\led) line 22 : #define LED3_GPIO_PIN		GPIO_Pin_1			        /* 连接到SCL时钟线的GPIO */
+main.c (User) line 30 : #define PA_AC_CONTACTOR	GPIO_Pin_1
+stm32f10x_gpio.h (Libraries\FWlib\inc) line 128 : #define GPIO_Pin_1                 ((uint16_t)0x0002)  /*!< Pin 1 selected */
+IS_GET_GPIO_PIN in stm32f10x_gpio.h (Libraries\FWlib\inc) :                               ((PIN) == GPIO_Pin_1) || \
